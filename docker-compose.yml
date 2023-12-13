@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspdockerwebapppro:
+    image: ${DOCKER_REGISTRY-}aspdockerwebapppro
+    build:
+      context: .
+      dockerfile: AspDockerWebAppPro/Dockerfile
